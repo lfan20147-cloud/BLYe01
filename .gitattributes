@@ -1,0 +1,27 @@
+# 强制Git将TypeScript和Next.js配置文件当作文本处理
+*.ts    text eol=lf
+*.tsx    text eol=lf
+*.js    text eol=lf
+*.jsx    text eol=lf
+*.json    text eol=lf
+*.md    text eol=lf
+*.css    text eol=lf
+*.html    text eol=lf
+
+# Next.js特定文件强制文本
+next-env.d.ts    text
+next.config.*    text
+.coze    text
+
+# 明确标记二进制文件
+*.png    binary
+*.jpg    binary
+*.jpeg    binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.mp3    binary
+*.mp4    binary
+*.wav    binary
+*.zip    binary
+*.exe    binary
